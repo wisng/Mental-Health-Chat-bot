@@ -21,8 +21,7 @@ Hartmann, J. (2022). Emotion English DistilRoBERTa-base. Hugging Face.
 
 ### Steps
 
-1. Clone the Repository
-2. Clone the Serenity repository to your local machine using Git:
+1. Clone the Serenity repository to your local machine using Git:
 
 ``` Bash
 git clone https://github.com/wisng/Serenity
@@ -30,23 +29,23 @@ git clone https://github.com/wisng/Serenity
 
 Start the Backend
 
-3. Navigate to the backend folder:
+2. Navigate to the backend folder:
 
 ```Bash
 cd backend
 ```
 
-4. Install the required packages using pip:
+3. Install the required packages using pip:
 
 ``` Shell
 pip install -r requirements.txt
 ```
 
-5. Create a token.env file with your Nvidia NIM token:
+4. Create a token.env file with your Nvidia NIM token:
 
 ``` NVIDIA_TOKEN={YOUR_API_KEY} ```
 
-6. Run the backend server:
+5. Run the backend server:
 
 ``` Shell
 python main.py
@@ -54,25 +53,25 @@ python main.py
 
 Start the Frontend
 
-7. Navigate to the frontend folder:
+6. Navigate to the frontend folder:
 
 ``` Bash
 cd frontend
 ```
 
-8. Install the required packages using npm:
+7. Install the required packages using npm:
 
 ``` Bash
 npm install
 ```
 
-9. Start the development server:
+8. Start the development server:
 
 ``` Bash
 ng serve
 ```
 
-10. Open a web browser and navigate to:
+9. Open a web browser and navigate to:
 
 ``` http://localhost:4200 ```
 
