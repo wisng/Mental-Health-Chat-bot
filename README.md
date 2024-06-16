@@ -20,61 +20,43 @@ Let me know if this meets your needs or if you'd like me to make any changes!
 1. Clone the Repository
 2. Clone the Serenity repository to your local machine using Git:
 
-``` git clone https://your-repo-url.com
-
-```
+``` git clone https://your-repo-url.com ```
 
 Start the Backend
 
 3. Navigate to the backend folder:
 
-``` cd backend
-
-```
+``` cd backend ```
 
 4. Install the required packages using pip:
 
-``` pip install -r requirements.txt
-
-```
+``` pip install -r requirements.txt ```
 
 5. Create a token.env file with your Nvidia NIM token:
 
-``` NVIDIA_TOKEN={YOUR_API_KEY}
-
-```
+``` NVIDIA_TOKEN={YOUR_API_KEY} ```
 
 6. Run the backend server:
 
-``` python main.py
-
-```
+``` python main.py ```
 
 Start the Frontend
 
 7. Navigate to the frontend folder:
 
-``` cd frontend
-
-```
+``` cd frontend ```
 
 8. Install the required packages using npm:
 
-``` npm install
-
-```
+``` npm install ```
 
 9. Start the development server:
 
-``` ng serve
-
-```
+``` ng serve ```
 
 10. Open a web browser and navigate to:
 
-``` http://localhost:4200
-
-```
+``` http://localhost:4200 ```
 
 That's it! You should now have Serenity up and running on your local machine.
 
