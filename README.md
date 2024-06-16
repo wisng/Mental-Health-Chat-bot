@@ -80,5 +80,3 @@ That's it! You should now have Serenity up and running on your local machine.
 
 ## Contact
 If you have any questions or need help, please email wisdomkangngo@gmail.com.
-
-I hope this helps! Let me know if you have any questions or need further assistance.
