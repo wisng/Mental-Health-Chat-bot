@@ -10,7 +10,6 @@ Please note that Serenity is not intended to replace professional mental health 
 
 References
 Hartmann, J. (2022). Emotion English DistilRoBERTa-base. Hugging Face.
-Let me know if this meets your needs or if you'd like me to make any changes!
 
 ## Getting Started
 ### Prerequisites 
