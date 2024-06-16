@@ -18,6 +18,7 @@ Hartmann, J. (2022). Emotion English DistilRoBERTa-base. Hugging Face.
 - Node.js 16.15
 - Angular 14.1
 - npm 8.11
+- torch 2.3.1
 
 ### Steps
 
