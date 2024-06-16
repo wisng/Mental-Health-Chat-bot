@@ -1,0 +1,7 @@
+<div class="chat-message" [ngClass]="{ 'sent': message.isSent, 'received': !message.isSent }">
+    <div class="bubble">
+      {{ message.content }}
+    </div>
+    <span class="timestamp">{{ message.sentAt | date: 'shortTime' }}</span>
+  </div>
+  

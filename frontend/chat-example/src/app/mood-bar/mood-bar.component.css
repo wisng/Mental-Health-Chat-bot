@@ -1,0 +1,44 @@
+.mood-bar {
+    width: 100%; /* adjust the width as needed */
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .bar {
+    width: 50%; /* initial width */
+    height: 100%;
+    background-color: #007bff; /* blue color for happy mood */
+    border-radius: 10px;
+    transition: transform 0.5s ease-in-out; /* add a smooth transition effect */
+  }
+
+  .emoji {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+  }
+  
+  .unhappy {
+    left: 0;
+  }
+  
+  .neutral {
+    left: 50%;
+  }
+  
+  .happy {
+    right: 0;
+  }
+
+  .padding{
+    padding: 5px;
+  }
+
+  @media (max-width: 768px) {
+    .padding{
+      padding: 2px;
+    }
+  }

@@ -1,0 +1,16 @@
+<div class="sidebar">
+  <div class="mood-bar">
+    <mood-bar [score]="score"></mood-bar>
+</div>
+</div>
+<div class="chat-window">
+    <div class="message-list" (scroll)="scrolled($event)" #scrollframe>
+      <app-chat-message *ngFor="let message of messages" [message]="message"></app-chat-message>
+    </div>
+    <div class="message-input">
+      <input id="message-input" [disabled]="disableInput" type="text" [(ngModel)]="newMessage" placeholder="Type a message" (keydown)="onKeyDown($event)" />
+      <button (click)="sendMessage()">Send</button>
+    </div>
+  </div>
+
+  

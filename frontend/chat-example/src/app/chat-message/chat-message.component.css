@@ -1,0 +1,45 @@
+.chat-message {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.chat-message.sent {
+  align-items: flex-end;
+}
+
+.chat-message.received {
+  align-items: flex-start;
+}
+
+.bubble {
+  max-width: 60%;
+  padding: 10px;
+  border-radius: 10px;
+  word-wrap: break-word;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.chat-message.sent .bubble {
+  background-color: #dcf8c6;
+  align-self: flex-end;
+}
+
+.chat-message.received .bubble {
+  background-color: #e0f7fa;
+  align-self: flex-start;
+}
+
+.timestamp {
+  font-size: 0.75rem;
+  color: #888;
+  margin-top: 2px;
+}
+
+.chat-message.sent .timestamp {
+  align-self: flex-end;
+}
+
+.chat-message.received .timestamp {
+  align-self: flex-start;
+}

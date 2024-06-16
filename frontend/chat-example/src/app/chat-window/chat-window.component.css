@@ -1,0 +1,75 @@
+.chat-window {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    height: 85vh;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+
+  .mood-bar{
+    padding-bottom: 10px;
+  }
+  
+  .message-list {
+    flex: 1;
+    overflow-y: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .message-input {
+    display: flex;
+  }
+  
+  .message-input input {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .message-input button {
+    padding: 0.5rem;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 0.5rem;
+  }
+  
+  .sidebar {
+    top: 0px;
+    width: 20vw;
+    height: 85vh;
+    position: absolute;
+    left: 20px;
+  }
+  
+  /* Media query for screens with a maximum width of 480px ( typical mobile screen size) */
+  @media (max-width: 768px) {
+    .chat-window {
+      width: 90vw;
+      height: 45vh;
+      position: absolute; /* change to relative positioning */
+      bottom: 0;
+      top: auto;
+      right: auto;
+      left: 20px;
+      order: 1;
+    }
+
+    .sidebar {
+      width: 90vw;
+      height: 45vh;
+      position: absolute; /* change to relative positioning */
+      top: 0px;
+      left: 20px;
+      margin-top: 20px; /* add margin to separate from chat window */
+      order: 2;
+    }
+  }
+  

@@ -1,0 +1,7 @@
+<div class="padding" *ngFor="let value of score; index as i">
+    <label>{{ labels[i] }}</label>
+    <div class="mood-bar">
+      <div class="bar" [style.width.%]="value * 100">
+      </div>
+    </div>
+  </div>
