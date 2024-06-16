@@ -2,7 +2,7 @@
 
 ## About Serenity
 Serenity is a mental health chatbot designed to provide support and resources for mental wellness. Our chatbot uses the LLaMA 3 70B model as its foundation, fine-tuned through prompt engineering to offer empathetic and informative responses.
-Under the hood, Serenity leverages Nvidia's NIM API calls and LangChain to generate human-like text. Additionally, we incorporate sentiment analysis powered by [Jochen Hartmann's "Emotion English DistilRoBERTa-base" model (Hartmann, 2022)](https://huggingface.co/j-hartmann/emotion-english-distilroberta-base), available on Hugging Face. This allows us to better understand and respond to users' emotional needs.
+Under the hood, Serenity leverages [Nvidia's NIM](https://www.nvidia.com/en-us/ai/) API calls and LangChain to generate human-like text. Additionally, we incorporate sentiment analysis powered by [Jochen Hartmann's "Emotion English DistilRoBERTa-base" model (Hartmann, 2022)](https://huggingface.co/j-hartmann/emotion-english-distilroberta-base), available on Hugging Face. This allows us to better understand and respond to users' emotional needs.
 
 My goal with Serenity is to create a safe and non-judgmental space for individuals to discuss their mental health concerns and receive helpful resources and support.
 
